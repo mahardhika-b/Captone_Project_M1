@@ -136,7 +136,7 @@ Menu Tampilan Data Karyawan
                         continue
 
                     variable_kosong = []
-                    index_variable_kosong = []
+#                     index_variable_kosong = []
                     indexing_data_karyawan(inputan_kolom_pilihan)
                     
                     if inputan_karyawan_pilihan in variable_kosong:
@@ -248,6 +248,7 @@ Menu Menambah Data Karyawan
                     continue
                 else:
                     print('Anda salah memasukkan karakter. Halaman akan kembali pada menu menambah data karyawan ')
+                    continue
                 print('\nData karyawan baru berhasil tersimpan\n')
                 input('Masukkan huruf atau angka apapun untuk kembali ke menu tambahan:\n')
                 continue
